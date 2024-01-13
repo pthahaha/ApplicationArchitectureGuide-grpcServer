@@ -1,0 +1,16 @@
+grpc:
+  server:
+    port: 50051
+
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/my_database
+    password: 1025
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+
+
